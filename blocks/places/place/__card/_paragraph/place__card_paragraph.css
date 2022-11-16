@@ -1,0 +1,30 @@
+.place__card_paragraph {
+  margin: 0 0 23px 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+}
+
+.place__card_paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__card_paragraph {
+    margin: 0 0 23px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__card_paragraph {
+    font-size: 16px;
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__card_paragraph {
+    margin: 0 16px 25px;
+  }
+}

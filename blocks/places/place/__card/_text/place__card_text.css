@@ -1,0 +1,4 @@
+.place__card_text {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.place__card_main {
+  display: flex;
+  align-items: end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__card_main {
+    display: block;
+    margin-bottom: 32px;
+  }
+}
