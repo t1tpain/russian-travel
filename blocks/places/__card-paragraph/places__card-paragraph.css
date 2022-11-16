@@ -26,5 +26,6 @@
 @media screen and (max-width: 320px) {
   .places__card-paragraph {
     margin: 0 16px 25px;
+    max-width: 288px;
   }
 }
