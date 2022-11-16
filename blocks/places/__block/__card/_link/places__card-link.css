@@ -1,4 +1,4 @@
-.places__card_link {
+.places__card-link {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -7,12 +7,12 @@
   transition: opacity 0.3s ease;
 }
 
-.places__card_link:hover {
+.places__card-link:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-  .places__card_link {
+  .places__card-link {
     margin: 0 16px 32px;
   }
 }

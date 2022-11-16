@@ -1,4 +1,4 @@
-.places__card_paragraph {
+.places__card-paragraph {
   margin: 0 0 23px 40px;
   font-weight: 400;
   font-size: 18px;
@@ -6,25 +6,25 @@
   color: #FFFFFF;
 }
 
-.places__card_paragraph:last-child {
+.places__card-paragraph:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .places__card_paragraph {
+  .places__card-paragraph {
     margin: 0 0 23px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .places__card_paragraph {
+  .places__card-paragraph {
     font-size: 16px;
     margin-left: 28px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__card_paragraph {
+  .places__card-paragraph {
     margin: 0 16px 25px;
   }
 }

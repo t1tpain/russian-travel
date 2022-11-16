@@ -1,11 +1,11 @@
-.places__card_main {
+.places__card-main {
   display: flex;
   align-items: end;
   margin-bottom: 48px;
 }
 
 @media screen and (max-width: 320px) {
-  .places__card_main {
+  .places__card-main {
     display: block;
     margin-bottom: 32px;
   }

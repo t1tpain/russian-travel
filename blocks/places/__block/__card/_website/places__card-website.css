@@ -1,4 +1,4 @@
-.places__card_website {
+.places__card-website {
   margin: 0 0 9px;
   font-weight: 400;
   font-size: 12px;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places__card_website {
+  .places__card-website {
     line-height: 12px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__card_website {
+  .places__card-website {
     margin: 0 16px 12px;
   }
 }

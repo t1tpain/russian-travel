@@ -1,4 +1,4 @@
-.places__card_text {
+.places__card-text {
   display: flex;
   flex-direction: column;
 }
