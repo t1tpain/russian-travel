@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешевствия по России</title>
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
   <div class="page__container">
     <header class="header">
       <img class="logo header__logo" src="./images/header-logo.svg" alt="Россия">
       <div class="header__links">
-        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
@@ -26,26 +26,26 @@
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span>11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span>12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span>16</span></li>
+          <li>Природных заповедников <span>105</span></li>
+          <li>Аэропортов <span>241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
-        <img src="./images/__item1.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item2.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item3.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item4.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item5.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item6.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item7.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item8.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item9.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item10.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item11.png" alt="грид" class="photo-grid__item">
-        <img src="./images/__item12.png" alt="грид" class="photo-grid__item">
+        <img src="./images/__item1.png" alt="поезд" class="photo-grid__item">
+        <img src="./images/__item2.png" alt="облака" class="photo-grid__item">
+        <img src="./images/__item3.png" alt="поле" class="photo-grid__item">
+        <img src="./images/__item4.png" alt="лес" class="photo-grid__item">
+        <img src="./images/__item5.png" alt="колесо" class="photo-grid__item">
+        <img src="./images/__item6.png" alt="пляж" class="photo-grid__item">
+        <img src="./images/__item7.png" alt="горы" class="photo-grid__item">
+        <img src="./images/__item8.png" alt="переход" class="photo-grid__item">
+        <img src="./images/__item9.png" alt="равнина" class="photo-grid__item">
+        <img src="./images/__item10.png" alt="земля" class="photo-grid__item">
+        <img src="./images/__item11.png" alt="скалы" class="photo-grid__item">
+        <img src="./images/__item12.png" alt="небо" class="photo-grid__item">
       </section>
       <section class="places">
         <ul class="places__block">
@@ -53,7 +53,7 @@
             <div class="places__card-main">
               <h3 class="places__card-title">Куршская коса</h3>
               <div class="places__card-url">
-                <p class="places__card-website">URL</p>
+                <p class="places__card-website">url</p>
                 <a class="places__card-link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
               </div>
             </div>
@@ -69,7 +69,7 @@
             <div class="places__card-main">
               <h3 class="places__card-title">Кольский</h3>
               <div class="places__card-url">
-                <p class="places__card-website">URL</p>
+                <p class="places__card-website">url</p>
                 <a class="places__card-link" target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
               </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="places__card-main">
               <h3 class="places__card-title">Алтай</h3>
               <div class="places__card-url">
-                <p class="places__card-website">URL</p>
+                <p class="places__card-website">url</p>
                 <a class="places__card-link" target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
               </div>
             </div>
@@ -101,7 +101,7 @@
             <div class="places__card-main">
               <h3 class="places__card-title">Зимний Байкал</h3>
               <div class="places__card-url">
-                <p class="places__card-website">URL</p>
+                <p class="places__card-website">url</p>
                 <a class="places__card-link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
               </div>
             </div>
@@ -117,7 +117,7 @@
             <div class="places__card-main">
               <h3 class="places__card-title">Карелия</h3>
               <div class="places__card-url">
-                <p class="places__card-website">URL</p>
+                <p class="places__card-website">url</p>
                 <a class="places__card-link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
               </div>
             </div>
@@ -138,13 +138,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
         <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
         <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
         <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
         <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
-      </div>
+      </nav>
       <p class="footer__copyright">© 2020. Жаренов Роман</p>
     </footer>
   </div>

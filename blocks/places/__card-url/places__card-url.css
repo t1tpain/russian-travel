@@ -1,9 +1,9 @@
 .places__card-url {
-  width: 456px;
+  max-width: 456px;
 }
 
 @media screen and (max-width: 320px) {
   .places__card-url {
-    width: 300px;
+    max-width: 300px;
   }
 }

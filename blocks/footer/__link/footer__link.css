@@ -5,6 +5,15 @@
   line-height: 18px;
   color: #FFFFFF;
   margin-right: 14px;
+  transition: opacity 0.4s ease;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 320px) {
