@@ -1,4 +1,4 @@
-# RUSSIAN TRAVEL
+# RUSSIAN TRAVEL (https://t1tpain.github.io/russian-travel/)
 
  **Russian travel** - это мой второй проект, который я писал на основе обучения в **[Яндекс.Практикуме](https://practicum.yandex.ru/)**.
 
