@@ -1,5 +1,4 @@
 .header__links {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 0 18px;
 }

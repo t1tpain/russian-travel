@@ -17,10 +17,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 623px) {
   .places__card-image {
     width: 320px;
     height: 320px;
-    margin-bottom: 32px;
   }
 }

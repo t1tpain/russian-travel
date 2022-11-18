@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  margin: 0 48px 92px;
+  margin: 0 48px 0;
   z-index: 0;
 }
 
@@ -30,20 +30,18 @@
   .cover {
     width: 100%;
     min-height: 640px;
-    margin: 0 0 92px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 480px;
-    margin: 0 0 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin: 0 0 97px;
   }
 }

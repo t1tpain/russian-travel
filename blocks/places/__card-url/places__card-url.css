@@ -1,5 +1,8 @@
 .places__card-url {
   max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 @media screen and (max-width: 320px) {

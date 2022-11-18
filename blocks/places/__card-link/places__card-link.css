@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 320px) {
   .places__card-link {
-    margin: 0 16px 32px;
+    margin: 0 16px;
   }
 }
