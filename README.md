@@ -1,4 +1,4 @@
-# RUSSIAN TRAVEL (https://t1tpain.github.io/russian-travel/)
+# RUSSIAN TRAVEL
 
  **Russian travel** - это мой второй проект, который я писал на основе обучения в **[Яндекс.Практикуме](https://practicum.yandex.ru/)**.
 
@@ -57,3 +57,5 @@ ____
 Язык страницы - русский ```lang="ru"```.
 
 Кодировка документа - ```charset="UTF-8"```.
+
+Ссылка на сайт - https://t1tpain.github.io/russian-travel/
