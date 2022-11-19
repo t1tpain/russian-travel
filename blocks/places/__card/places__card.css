@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 623px) {
   .places__card {
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     gap: 32px 0;
     margin-bottom: 48px;
   }
